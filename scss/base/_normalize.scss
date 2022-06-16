@@ -38,7 +38,7 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: $font-size-xlarge;
   margin: 0.67em 0;
 }
 
@@ -63,7 +63,7 @@ hr {
 
 pre {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: $font-size-normal; /* 2 */
 }
 
 /* Text-level semantics
@@ -94,7 +94,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: $weight-heavy;
 }
 
 /**
@@ -105,8 +105,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: $stack-monospace; /* 1 */
+  font-size: $font-size-normal; /* 2 */
 }
 
 /**

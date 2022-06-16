@@ -17,3 +17,22 @@ $color-info: #50d8d7;
 /* ======================================== */
 
 $brk-wide: '(min-width:768px)';
+
+/* ======================================== */
+/*                Font Stack                */ 
+/* ======================================== */
+
+//font-family
+$stack-sans-serif: 'lato', sans-serif; 
+$stack-monospace: monospace, monospace;
+
+//font-weight
+$weight-light: 300;
+$weight-medium: 700;
+$weight-heavy: bolder;
+
+//font-size
+$font-size-normal: 1em;
+$font-size-large: 1.5em;
+$font-size-xlarge: 2em;
+
