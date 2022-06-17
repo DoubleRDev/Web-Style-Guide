@@ -62,7 +62,7 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: $stack-monospace; /* 1 */
   font-size: $font-size-normal; /* 2 */
 }
 
